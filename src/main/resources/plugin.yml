@@ -1,0 +1,11 @@
+name: EquynoxBosses
+description: Bosses for Equynox Factions
+author: Fyrezz
+depend: [Factions]
+
+main: net.fyrezz.equynoxbosses.P
+version: 1.0.0
+
+commands:
+  bosses:
+    aliases: [boss]

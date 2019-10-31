@@ -11,11 +11,14 @@ public class P extends JavaPlugin {
 	}
 	
 	public void onEnable() {
+		reloadConfig();
+		saveDefaultConfig();
+		getServer().getPluginCommand("bosses").setExecutor(new CmdBosses());
 		
 	}
 	
 	public void onDisable() {
-		
+		saveConfig();
 	}
 
 }
